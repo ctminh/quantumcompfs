@@ -39,7 +39,6 @@ def inner_product(state_1, state_2):
         complex: The value of the inner product <state_1 | state_2>.
     """
  
-    bra_state2 = state_2.conjugate()
     bra_state1 = state_1.conjugate()
 
     # compute the inner product
